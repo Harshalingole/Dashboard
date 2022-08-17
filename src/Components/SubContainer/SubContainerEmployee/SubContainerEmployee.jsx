@@ -12,7 +12,7 @@ const SubContainerEmployee = ({ shiftTime, shiftName }) => {
   return (
     <div className="empSubC-wrapper!flexColNoWrapJstIst  gap-4 bg-bgWhite shadow-sm rounded-md px-4 py-6  p-2 w-full mb-4">
       {/* Top Div - Shift Time & Edit Option */}
-      <div className="flexRowNowrap justify-between items-center gap-2 w-full">
+      <div className="flexRowNoWrap justify-between items-center gap-2 w-full">
         {/* Shift Time */}
         <h2 className="text-left text-base font-bold">{shiftTime}</h2>
         {/* Action Option -Edit & Plus */}
